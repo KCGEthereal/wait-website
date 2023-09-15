@@ -10,6 +10,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.min.css" />
 	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<style>
+		.pageclip-form__success__message {
+			visibility: hidden !important;
+		}
+	</style>
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
@@ -62,9 +67,9 @@
 	</header>
 
 	<!-- Signup Form -->
-	<form id="signup-form" method="post" action="#">
+	<form id="signup-form" method="post" action="https://send.pageclip.co/dXNCxJT2gvoi58yY0KsYlxg7r289zZGB/notify-form" class="pageclip-form">
 		<input type="email" name="email" id="email" placeholder="Email Address" />
-		<input type="submit" value="Sign Up" />
+		<input type="submit" value="Notify me!" />
 	</form>
 
 	<!-- Footer -->
@@ -74,14 +79,11 @@
 			<li><a href="mailto:hey@kcgethereal.com" class="icon fa fa-envelope"><span class="label">Email</span></a></li>
 			<li><a href="tel:9514790999" class="icon fa fa-phone"><span class="label">Phone</span></a></li>
 		</ul>
-		<!-- <ul class="copyright">
-			<li>&copy; Untitled.</li>
-			<li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
-		</ul> -->
+		<ul class="copyright">
+			<li>&copy; KCGEthereal</li>
+			<li>Website made by: <a href="https://github.com/smartclash">Karan Sanjeev</a></li>
+		</ul>
 	</footer>
-
-	<!-- Scripts -->
-	<script src="assets/js/main.min.js"></script>
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-6SP57PCMHJ"></script>
@@ -92,6 +94,8 @@
 
 		gtag('config', 'G-6SP57PCMHJ');
 	</script>
+	<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+	<script src="assets/js/main.min.js"></script>
 </body>
 
 </html>
